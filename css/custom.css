@@ -1,0 +1,62 @@
+/* Custom Colors */
+body {
+    background-color: #FFE1FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-navbar {
+    background-color: #E4B1F0;
+}
+
+.custom-navbar .navbar-brand {
+    color: #FFFFFF; /* Custom brand color */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #FFFFFF; /* Custom link color */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #FFD700; /* Custom link hover color */
+}
+
+/* Cover Page Banner Styles */
+.cover-banner {
+    /*background: url('../images/girl.webp') no-repeat center center;*/
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cover-banner .cover-content img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.cover-banner .cover-content h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.cover-banner .cover-content p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .cover-banner .cover-content img {
+        max-width: 100px;
+    }
+
+    .cover-banner .cover-content h1 {
+        font-size: 2rem;
+    }
+
+    .cover-banner .cover-content p {
+        font-size: 1rem;
+    }
+}
