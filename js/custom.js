@@ -19,7 +19,7 @@ function scrollToSection(index) {
 }
 
 // Event listener for wheel scrolling without debounce
-window.addEventListener('wheel', (event) => {
+window.addEventListener('scroll', (event) => {
     if (event.deltaY > 0) {
         scrollToSection(currentSectionIndex + 1); // Scroll down
     } else {
