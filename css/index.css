@@ -17,6 +17,9 @@ body {
 .card {
     transition: transform 0.3s, box-shadow 0.3s;
     border: none;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card:hover {
@@ -46,7 +49,7 @@ h2 {
     text-align: center;
     color: white;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
     border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -107,7 +110,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; /* Prevent scroll bars */
+    /*overflow: hidden; !* Prevent scroll bars *!*/
 }
 
 .section {
@@ -142,20 +145,5 @@ header {
 @keyframes typing {
     from { width: 0 }
     to { width: 100% }
-}
-
-
-@media (max-width: 768px) {
-    .cover-banner .cover-content img {
-        max-width: 100px;
-    }
-
-    .cover-banner .cover-content h1 {
-        font-size: 2rem;
-    }
-
-    .cover-banner .cover-content p {
-        font-size: 1rem;
-    }
 }
 
